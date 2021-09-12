@@ -1,0 +1,8 @@
+server:
+  port : 8080
+springdoc:
+  api-docs:
+      enabled: true
+      path: /.well-known/spec/v3/api-docs
+  swagger-ui.path: /.well-known/spec/swagger-ui.html
+  default-produces-media-type: application/json
